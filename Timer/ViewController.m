@@ -40,7 +40,7 @@
     //NSProxy
     self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:[JProxy initWithTarget:self] selector:@selector(timerTest) userInfo:nil repeats:YES];
     
-    //NSObject
+    //NSObject  效率低于NSProxy
 //    self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:[JProxy1 initWithTarget:self] selector:@selector(timerTest) userInfo:nil repeats:YES];
 }
 
